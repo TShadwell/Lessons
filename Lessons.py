@@ -160,7 +160,7 @@ if ((args.notes != True) and (args.wholeweek != True)):
 					count=count+1
 				out = out + " " + str(i) + verbline
 elif ((args.notes == True) and (args.wholeweek == True)):
-	print(bcolors.FAIL + "You can't do both!" + bcolors.ENDC)
+	print("You can't do both!")
 	sys.exit()
 elif ((args.notes == True) and (args.wholeweek != True)):
 	out = ""
