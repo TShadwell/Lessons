@@ -1,4 +1,3 @@
-
 #!/usr/bin/env python
 #Python script to automagicly give information about lessons on a day
 import datetime
@@ -7,7 +6,7 @@ import sys
 import math
 ##PARSING ARGUMENTS (BUT NOT STARTING THEM)
 ##TODO:COLOUR PARSER
-parser = argparse.ArgumentParser(description='Gives information about lessons on a given day.', epilog='Zemnmez 2011')
+parser = argparse.ArgumentParser(description='Gives information about lessons on a given day.', epilog='Tshadwell 2011')
 parser.add_argument('-w', type=int, choices=[1, 2], required=True, dest='week', help='Week to handle.')
 parser.add_argument('-d', type=int, choices=[1, 2, 3, 4, 5, 6, 7], dest='day',  help='Output a timetable for given day.')
 parser.add_argument('-p', type=int, choices=[1, 2, 3, 4, 5], dest='period', help='This switch will output a lesson, given its period.')
